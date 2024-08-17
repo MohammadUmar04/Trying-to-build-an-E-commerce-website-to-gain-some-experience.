@@ -1,0 +1,240 @@
+/* nav css */
+
+body{
+
+}
+.custom-navbar {
+  padding: 0.5rem 1rem; 
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
+}
+
+.navbar-brand {
+  font-weight: bold;
+  font-size: 1.25rem;
+}
+
+.nav-link {
+  margin-right: 1rem; 
+  transition: color 0.3s; 
+}
+
+.nav-link:hover {
+  color: #007bff;
+}
+
+.navbar-toggler {
+  border: none; 
+}
+
+.navbar-toggler-icon {
+  background-image: url('path/to/custom-icon.svg'); 
+}
+
+@media (max-width: 992px) {
+  .navbar-nav {
+      margin-top: 0.5rem; 
+  }
+
+  .nav-link {
+      margin-right: 0.5rem; 
+  }
+}
+
+@media (max-width: 576px) {
+  .custom-navbar {
+      padding: 0.25rem 0.5rem;
+  }
+
+  .navbar-brand {
+      font-size: 1rem;
+  }
+}
+
+
+/* home page css */
+
+.home-container {
+  font-family: Arial, sans-serif;
+}
+
+.home-header {
+  margin-bottom: 20px;
+}
+
+.home-featured-products {
+  padding: 20px 0;
+}
+
+.home-promotions {
+  padding: 20px 0;
+}
+
+.promotion-box {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.promotion-box img {
+  border-radius: 5px;
+  max-width: 100%;
+  height: auto;
+}
+
+.home-footer {
+  background-color: #f8f9fa;
+  padding: 20px 0;
+  color: green;
+  border-top: 1px solid #dee2e6;
+  width: 100%;
+  position: relative;
+  bottom: 0;
+}
+
+.home-footer h5 {
+  margin-bottom: 15px;
+  font-size: 1.25rem;
+}
+
+.home-footer ul {
+  padding-left: 0;
+  list-style: none;
+}
+
+.home-footer ul li {
+  margin-bottom: 10px;
+}
+
+.home-footer ul li a {
+  text-decoration: none;
+  color: #007bff;
+  font-weight: 500;
+}
+
+.home-footer ul li a:hover {
+  text-decoration: underline;
+}
+
+@media (max-width: 768px) {
+  .home-footer h5 {
+      font-size: 1rem;
+  }
+
+  .home-footer ul li {
+      margin-bottom: 5px;
+  }
+}
+
+
+
+/* dark theme */
+
+body {
+  background-color: #f8f9fa; 
+  color: #212529; 
+}
+
+body.dark-theme {
+  background-color: #343a40;
+  color: #f8f9fa;
+}
+
+.navbar-dark {
+  background-color: #343a40; 
+}
+
+.navbar-dark .navbar-nav .nav-link {
+  color: #f8f9fa; 
+}
+
+.dropdown-menu {
+  background-color: #343a40;
+}
+
+.dropdown-menu .dropdown-item {
+  color: black; 
+}
+
+.dropdown-menu .dropdown-item:hover {
+  background-color: #495057; 
+}
+
+
+
+/* styles.css */
+
+.card-body {
+  padding: 20px;
+}
+
+.card-title {
+  margin-bottom: 20px;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+
+/* UserAccount.css */
+
+.user-account {
+  max-width: 800px;
+  margin: auto;
+  padding: 1rem;
+}
+
+.profile-card {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 1rem;
+}
+
+.profile-header {
+  background-color: #007bff;
+  color: white;
+  font-size: 1.25rem;
+  padding: 1rem;
+}
+
+.edit-profile-btn {
+  margin-top: 1rem;
+}
+
+.order-history-card {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 1rem;
+  margin-top: 1rem;
+}
+
+.order-history-header {
+  background-color: #28a745;
+  color: white;
+  font-size: 1.25rem;
+  padding: 1rem;
+}
+
+.order-item {
+  padding: 1rem;
+  border-bottom: 1px solid #ddd;
+}
+
+.order-item:last-child {
+  border-bottom: none;
+}
+
+.view-details-btn {
+  margin-top: 0.5rem;
+}
+
+@media (max-width: 768px) {
+  .profile-header {
+      font-size: 1rem;
+  }
+
+  .order-history-header {
+      font-size: 1rem;
+  }
+}
